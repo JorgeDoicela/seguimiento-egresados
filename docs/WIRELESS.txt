@@ -1,0 +1,12 @@
+WIREFRAMES BÁSICOS — LISTA
+👉 Para hoy debemos preparar borradores rápidos de:
+1️⃣ Login: email + password + botón + link de recuperar contraseña
+2️⃣ Dashboard: métricas clave + gráficos (barras, circular) + menú lateral/top
+3️⃣ Perfil: formulario editable con campos: empresa, puesto, salario, habilidades (checkbox o tags), sector, portafolio, CV
+4️⃣ Encuestas: listado de encuestas disponibles, botón responder
+5️⃣ Panel admin: gestión de usuarios, crear encuesta, reportes
+
+💡 ¿Cómo quieres los wireframes?
+✅ Opción 1: Te los dibujo rápido en Figma y te comparto el enlace
+✅ Opción 2: Los armo como esquema en texto/ascii aquí mismo
+✅ Opción 3: Genero imágenes básicas (mockups estáticos)

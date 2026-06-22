@@ -1,0 +1,92 @@
+Si quieres reiniciar todas las migraciones y borrar todas las tablas: php artisan migrate:fresh
+Este comando elimina todas las tablas y las vuelve a crear ejecutando todas las migraciones desde cero.
+
+
+
+
+php artisan db:seed
+
+
+
+
+
+
+
+
+
+BD
+SET FOREIGN_KEY_CHECKS = 0;
+
+DELETE FROM answers;
+ALTER TABLE answers AUTO_INCREMENT = 1;
+
+DELETE FROM graduate_skill;
+ALTER TABLE graduate_skill AUTO_INCREMENT = 1;
+
+DELETE FROM questions;
+ALTER TABLE questions AUTO_INCREMENT = 1;
+
+DELETE FROM surveys;
+ALTER TABLE surveys AUTO_INCREMENT = 1;
+
+DELETE FROM messages;
+ALTER TABLE messages AUTO_INCREMENT = 1;
+
+DELETE FROM model_has_permissions;
+ALTER TABLE model_has_permissions AUTO_INCREMENT = 1;
+
+DELETE FROM model_has_roles;
+ALTER TABLE model_has_roles AUTO_INCREMENT = 1;
+
+DELETE FROM role_has_permissions;
+ALTER TABLE role_has_permissions AUTO_INCREMENT = 1;
+
+DELETE FROM roles;
+ALTER TABLE roles AUTO_INCREMENT = 1;
+
+DELETE FROM permissions;
+ALTER TABLE permissions AUTO_INCREMENT = 1;
+
+DELETE FROM graduates;
+ALTER TABLE graduates AUTO_INCREMENT = 1;
+
+DELETE FROM employers;
+ALTER TABLE employers AUTO_INCREMENT = 1;
+
+DELETE FROM skills;
+ALTER TABLE skills AUTO_INCREMENT = 1;
+
+DELETE FROM users;
+ALTER TABLE users AUTO_INCREMENT = 1;
+
+DELETE FROM careers;
+ALTER TABLE careers AUTO_INCREMENT = 1;
+
+DELETE FROM failed_jobs;
+ALTER TABLE failed_jobs AUTO_INCREMENT = 1;
+
+DELETE FROM jobs;
+ALTER TABLE jobs AUTO_INCREMENT = 1;
+
+DELETE FROM job_batches;
+ALTER TABLE job_batches AUTO_INCREMENT = 1;
+
+DELETE FROM notifications;
+ALTER TABLE notifications AUTO_INCREMENT = 1;
+
+DELETE FROM sessions;
+ALTER TABLE sessions AUTO_INCREMENT = 1;
+
+DELETE FROM password_reset_tokens;
+ALTER TABLE password_reset_tokens AUTO_INCREMENT = 1;
+
+DELETE FROM cache;
+ALTER TABLE cache AUTO_INCREMENT = 1;
+
+DELETE FROM cache_locks;
+ALTER TABLE cache_locks AUTO_INCREMENT = 1;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+
+crontab -e
